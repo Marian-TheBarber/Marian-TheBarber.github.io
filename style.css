@@ -1,0 +1,59 @@
+body nav div img{
+    margin-left: 15px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+body nav div div a{
+    margin-left: 15px;
+}
+
+body nav div div button{
+    margin-left: 20px;
+}
+
+body iframe{
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+}
+
+#locatie {
+    text-align: center;
+}
+
+#img {
+    text-align: center;
+}
+
+section{
+    text-align: center;
+}
+
+
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 95%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+
+  ul {
+    margin-left: -3;
+    list-style-type: none;
+}
